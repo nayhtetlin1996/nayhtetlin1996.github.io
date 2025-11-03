@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name – Hardware & Control Systems Engineer</title>
+  <style>
+    :root {
+      --primary: #0a3d62;
+      --accent: #007bff;
+      --bg: #f7f9fb;
+      --text: #333;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 0.3rem;
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #dce3eb;
+    }
+
+    nav {
+      text-align: center;
+      background: white;
+      padding: 0.8rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: var(--primary);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: var(--primary);
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 1rem;
+    }
+
+    .skills span {
+  display: inline-block;
+  background: #555; /* professional dark grey */
+  color: #fff;      /* white text */
+  padding: 6px 12px;
+  border-radius: 15px;
+  margin: 5px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.skills span:hover {
+  background: #777; /* slightly lighter on hover */
+  cursor: default;
+}
+
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: var(--primary);
+      color: white;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      section { margin: 1rem; padding: 1.5rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Nay Htet Lin</h1>
+    <p>Hardware Planning & Control Systems Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experiences">Experiences</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Hardware Planning & Control Systems Engineer with hands-on experience in industrial automation,
+    control panel design, and system integration. I have worked on compressor control, plant monitoring and
+    advanced automation projects at <strong>AviComp Controls GmbH (Leipzig)</strong>, <strong>AviComp Singapore</strong>,
+    <strong>ST Engineering Urban Solutions</strong>, and the <strong>ROAR Lab (SUTD)</strong>.
+  </p>
+
+  <p>
+    My background combines practical engineering with deep academic training in industrial communication,
+    control theory, embedded systems, and energy management for electric & hybrid vehicles. I focus on building
+    reliable, safe and efficient automation solutions.
+  </p>
+
+  <ul class="about-highlights" aria-label="Key strengths">
+    <li><strong>Core areas:</strong> Hardware planning, control systems design, PLC & HMI integration</li>
+    <li><strong>Technical strengths:</strong> Industrial networks, MPC, DSP, fault diagnostics, modeling & simulation</li>
+    <li><strong>Goal:</strong> Apply practical and theoretical expertise to deliver robust, scalable automation systems</li>
+  </ul>
+</section>
+
+
+
+  <section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+    <!-- Left side: photo -->
+    <div class="education-photo">
+      <img src="images/profile.jpeg" alt="Profile Photo">
+    </div>
+
+    <!-- Right side: education details -->
+    <div class="education-details">
+
+      <div class="education-item">
+        <h3>Master of Science – RPTU Kaiserslautern-Landau</h3>
+        <p><strong>Duration:</strong> 16/08/2024 – 31/08/2026</p>
+        <p><strong>City:</strong> Kaiserslautern | <strong>Country:</strong> Germany</p>
+        <p><strong>Website:</strong> <a href="https://rptu.de/" target="_blank">rptu.de</a></p>
+        <p><strong>Field of Study:</strong> Automation and Control</p>
+      </div>
+
+      <div class="education-item">
+        <h3>Bachelor of Engineering – Yangon Technological University</h3>
+        <p><strong>Duration:</strong> 03/12/2012 – 10/10/2018</p>
+        <p><strong>City:</strong> Yangon | <strong>Country:</strong> Myanmar/Burma</p>
+        <p><strong>Website:</strong> <a href="https://ytu.edu.mm/" target="_blank">ytu.edu.mm</a></p>
+        <p><strong>Field of Study:</strong> Electronic Engineering</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+#education {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.education-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.education-photo img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #007acc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.education-details {
+  flex: 1;
+  min-width: 280px;
+}
+
+.education-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.education-item h3 {
+  color: #0a3d62;
+  margin-bottom: 8px;
+}
+
+.education-item p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.education-item a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.education-item a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .education-photo img {
+    width: 180px;
+    height: 180px;
+  }
+}
+</style>
+
+
+
+  <section id="experiences">
+  <h2>Work Experiences</h2>
+  <div class="experience-grid">
+
+    <!-- Experience 1: AviComp Controls Leipzig -->
+    <div class="experience">
+      <p><strong>AviComp Controls GmbH (Leipzig) – Compressor Control & Monitoring Systems</strong></p>
+      <ul>
+        <li>Provided <strong>technical clarification and design support</strong> for various control cabinets, including <strong>UPS systems, higher-level control cabinets, and server cabinets</strong>.</li>
+        <li>Prepared <strong>cabinet layout drawings, system overviews, power consumption and heat emission calculations</strong> to ensure optimal performance and compliance with design requirements.</li>
+        <li>Developed <strong>detailed wiring diagrams, terminal plans, cable lists, and Bills of Materials (BOM)</strong> using WSCAD and EPLAN for both standard and customized solutions.</li>
+        <li>Designed and supported control panels and <strong>Motor Control Center (MCC) panels</strong> for industrial compressor control and monitoring systems.</li>
+        <li>Contributed to the design and testing of <strong>HVAC control panels</strong> for heating, ventilation, and air-conditioning systems used in industrial applications.</li>
+        <li>Collaborated with project and production teams to ensure design compliance with <strong>customer specifications, standards, and project timelines</strong>.</li>
+      </ul>
+    </div>
+
+    <!-- Experience 2: ST Engineering -->
+    <div class="experience">
+      <img src="images/project5.jpeg" alt="ST Engineering Control System" />
+      <img src="images/project9.jpeg" alt="ST Engineering Control System" />
+      <p><strong>ST Engineering Urban Solutions Ltd – Platform Screen Doors Control System</strong></p>
+      <ul>
+        <li>Supported <strong>project and sales engineers</strong> during the tendering phase by providing technical inputs and control system solutions.</li>
+        <li>Designed and documented <strong>electrical control systems</strong> for platform screen doors, ensuring compliance with safety and operational standards.</li>
+        <li>Developed <strong>detailed electrical schematics and wiring harnesses</strong> using CAD tools such as AutoCAD Electrical.</li>
+        <li>Programmed and tested <strong>PLCs (Beckhoff TwinCAT 2)</strong> and <strong>HMIs (Hakko MONITOUCH V9)</strong> for seamless subsystem integration and monitoring.</li>
+        <li>Integrated and validated <strong>communication interfaces</strong> including <strong>CANBus</strong> and <strong>Modbus TCP/IP</strong>.</li>
+        <li>Collaborated with the <strong>production team</strong> for control panel assembly, wiring verification, and prototype planning.</li>
+        <li>Participated in <strong>prototype and environmental/EMC testing</strong>, ensuring compliance with performance and safety standards.</li>
+        <li>Conducted <strong>Factory Acceptance Tests (FAT)</strong> with customers and supported site activities including installation, cable routing, and design verification.</li>
+        <li>Prepared <strong>operation and maintenance manuals</strong> as well as <strong>training materials</strong> for client handover.</li>
+      </ul>
+    </div>
+
+    <!-- Experience 3: AviComp Singapore -->
+    <div class="experience">
+      <p><strong>AviComp Singapore Pte Ltd – Vapor Recovery Compressor Control Panel & Machine Monitoring</strong></p>
+      <ul>
+        <li>Supported <strong>project bidding and proposals</strong> by preparing technical drawings and control cabinet layouts for customer submissions.</li>
+        <li>Designed and developed <strong>compressor control cabinets</strong> and system architectures compliant with international electrical and safety standards.</li>
+        <li>Prepared <strong>system overview diagrams, cabinet layouts, power consumption and heat dissipation calculations</strong> for design validation.</li>
+        <li>Produced <strong>detailed wiring diagrams, terminal plans, cable lists, and Bills of Materials (BOM)</strong> using AutoCAD, WSCAD and COMOS.</li>
+        <li>Collaborated with cross-functional teams during <strong>Factory Acceptance Tests (FAT)</strong> and supported internal simulations prior to client inspections.</li>
+        <li>Assisted in the preparation of <strong>FAT procedures and documentation</strong> to ensure compliance with engineering and client specifications.</li>
+        <li>Provided technical support during <strong>on-site FATs and customer inspections</strong>, ensuring functional and safety conformity.</li>
+        <li>Contributed to the development of <strong>operation and maintenance manuals</strong> for compressor control systems.</li>
+      </ul>
+    </div>
+
+
+    <!-- Experience 4: Singapore University of Technology and Design -->
+    <div class="experience">
+      <p><strong>Singapore University of Technology and Design (SUTD) – Visiting Fellow</strong></p>
+      <p><strong>City:</strong> Singapore | <strong>Country:</strong> Singapore</p>
+      <p><strong>Duration:</strong> 25/07/2019 – 24/07/2020</p>
+      <ul>
+        <li>Contributed to multiple robotics research projects, including <strong>pipe inspection robots, shape-shifting robots, and stair-climbing robots</strong>.</li>
+        <li>Focused on <strong>vertical surface propagation robots</strong> such as the <strong>ship hull climbing and aircraft inspection robots</strong>, leading the <strong>electrical system integration and control design</strong>.</li>
+        <li>Developed <strong>system schematics, wiring diagrams, BOMs, and cable lists</strong> to support full-cycle system engineering from design to validation.</li>
+        <li>Supported <strong>prototype development, electrical assembly, and functional testing</strong> for proof-of-concept and pre-commercial models.</li>
+        <li>Collaborated with mechanical and autonomy teams to optimize system reliability, weight distribution, and signal integrity in compact robotic platforms.</li>
+        <li>Transitioned the ship hull climbing robot into a <strong>commercial prototype for ship hull cleaning and inspection</strong> under the joint venture company <strong>Oceania Robotics</strong>, including <strong>field testing at a Singapore shipyard</strong>.</li>
+        <li>Contributed to <strong>research publications and patent documentation</strong> related to autonomous ship maintenance robotics.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <div class="publication-list">
+    <div class="publication-item">
+      <p><strong>[2018]</strong> – <i>Automatic Vehicle License Plate Recognition System for Smart Transportation</i><br>
+      <span>Journal:</span> 2018 IEEE International Conference on Internet of Things and Intelligence System (IOTAIS)</p>
+    </div>
+
+    <div class="publication-item">
+      <p><strong>[2020]</strong> – <i>Sparrow: A Magnetic Climbing Robot for Autonomous Thickness Measurement in Ship Hull Maintenance</i><br>
+      <span>Journal:</span> MDPI</p>
+    </div>
+
+    <div class="publication-item">
+      <p><strong>[2022]</strong> – <i>Adhesion Risk Assessment of an Aircraft Inspection Robot for Improving Operator Awareness</i><br>
+      <span>Journal:</span> IEEE</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.experience img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  font-weight: bold;
+  color: #0a3d62;
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#publications {
+  margin-top: 2rem;
+}
+
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.publication-item {
+  background: #fafafa;
+  padding: 15px;
+  border-left: 4px solid #007acc;
+  border-radius: 6px;
+}
+
+.publication-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+</style>
+
+
+
+  </section>
+
+  <section id="skills" class="skills">
+  <h2>Skills & Tools</h2>
+
+  <h3>Control & Automation Engineering</h3>
+  <div class="skill-group">
+    <span>Control Systems Design</span>
+    <span>PLC Programming (TwinCAT, Siemens TIA Portal)</span>
+    <span>SCADA / HMI Systems</span>
+    <span>Industrial Communication Protocols (Profinet, Profibus, Modbus, CANopen, EtherCAT)</span>
+    <span>Functional Safety</span>
+    <span>System Integration</span>
+    <span>Energy Management Systems</span>
+  </div>
+
+  <h3>Electrical & Hardware Design</h3>
+  <div class="skill-group">
+    <span>Electrical Design Engineering</span>
+    <span>Hardware Planning</span>
+    <span>Power Distribution Systems</span>
+    <span>Electrical Documentation</span>
+    <span>EPLAN Electric P8</span>
+    <span>WSCAD</span>
+    <span>COMOS</span>
+    <span>AutoCAD Electrical</span>
+  </div>
+
+  <h3>Software & Programming</h3>
+  <div class="skill-group">
+    <span>C, C++</span>
+    <span>Matlab/Simulink</span>
+    <span>Microsoft Office 365</span>
+  </div>
+
+  <h3>Engineering & Project Management</h3>
+  <div class="skill-group">
+    <span>Requirements Engineering</span>
+    <span>Project Coordination</span>
+    <span>Root Cause Analysis & Troubleshooting</span>
+    <span>Preventive & Predictive Maintenance</span>
+    <span>Communication & Teamwork</span>
+  </div>
+
+  <h3>Languages</h3>
+  <div class="skill-group">
+    <span>English — C1</span>
+    <span>German — B1</span>
+    <span>Burmese — Native</span>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📧 Email: <a href="mailto:nayhtetlin.ytu@gmail.com">nayhtetlin.ytu@gmail.com</a><br />
+      💼 LinkedIn: <a href="https://www.linkedin.com/in/nay-htet-lin-3961a0180/" target="_blank">linkedin.com/in/nay-htet-lin-3961a0180</a><br />
+      📄 Download CV: <a href="resume.pdf" target="_blank">resume.pdf</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
